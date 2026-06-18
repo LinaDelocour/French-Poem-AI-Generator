@@ -10,19 +10,24 @@
 </head>
 <body>
     <h1 id="h1">AI French Poem Generator</h1>
-    <form id="form">
-        <input type="text" placeholder="Type your poem here..."
-        required
-        autocomplete="off"
-        autofocus
-        class="instructions"
-        id="user-insructions"
-        />
-        <input type="submit"
-        class="button"
-        id="button"/>
-    </form>
-    <div class="poem"
+    <div class="container">
+        <form id="form">
+            <input type="text" placeholder="Type your poem here..."
+            required
+            autocomplete="off"
+            autofocus
+            class="instructions"
+            id="user-instructions"
+            />
+            <input type="submit"
+            class="button"
+            id="button"/>
+        </form>
+        <div class="hint">
+            i.e. Flower, Paris, Cheese
+        </div>
+    </div>
+    <div class="poem hidden"
     id="poem">
     </div>
     <footer id="footer">This AI project was coded by <a href="https://github.com/LinaDelocour" target="blank">Polina Dorohykh</a> and is open-sourced on <a href="https://github.com/LinaDcour/French-Poem-AI-Generator">GitHub</a> and is hosted on <a href="https://frenchpoem-aigenerator.netlify.app/">Netlify</a></footer>
